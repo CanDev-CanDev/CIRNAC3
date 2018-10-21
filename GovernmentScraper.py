@@ -11,6 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
+
 def numOfPages(Page_Possibilities,driver):
     [firstgoToPage,firstOnPage] = Page_Possibilities[0]
     num = 0
@@ -52,9 +53,17 @@ def isOnPage(onPage,goToPage,driver):
         return False
     return True
 
-def addStudiesFromPage(driver):
-    return 1      
-
+def addStudiesFromPage():
+    url = 'http://pse5-esd5.aadnc-aandc.gc.ca/pubcbw/publication/catalog.aspx?l=E'
+    http = urllib3.PoolManager()
+    response = http.request('GET', url)
+    text = ""
+    soup = BeautifulSoup(response.data)
+    table = soup.find_all('tr')
+    span = []
+    print(len(table))
+    
+            
     
 
 driver = webdriver.Firefox()  # Optional argument, if not specified will search path.
@@ -78,6 +87,7 @@ for option in select.options:
 
 Gobutton = driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_btnGo"]')
 
+analytical_text = ""
 
 for currentCategories in categories:
    PageList = []
@@ -102,24 +112,25 @@ for currentCategories in categories:
        goToPage = Page_Possibilities[currentPage][1]
        if pageExists(onPage,goToPage,driver):
            if isOnPage(onPage,goToPage,driver):
-               addStudiesFromPage(driver)
+               analytical_text += addStudiesFromPage()
            else:
                if currentCategories == "Acts, Agreements and Land Claims" and currentPage == 3:
                    goToPage = "/html/body/div/div/main/form/div[3]/div[4]/div[2]/div[6]/div/table/tbody/tr[102]/td/table/tbody/tr/td[3]/span"
                NavigateToPage(goToPage,driver)
                WebDriverWait(driver,100).until(ec.visibility_of_element_located((By.XPATH,onPage)))
                
-               addStudiesFromPage(driver)
+               analytical_text += addStudiesFromPage()
        else:
            if currentPage == 0:
-               addStudiesFromPage(driver)
+               analytical_text += addStudiesFromPage()
        currentPage+=1
        
        if currentPage == 5:
            PageFlag = False
        if not pageExists(Page_Possibilities[currentPage][0],Page_Possibilities[currentPage][0],driver):
            PageFlag = False
-        
+
+print(analytical_text)
        
        
        
