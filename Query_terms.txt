@@ -1,0 +1,104 @@
+indigenous canada,1
+indigenous canada,0
+indigenous issues canada,0
+indigenous rights canada,0
+indigenous canada unfair,0
+indigenous discriminate canada,0
+indigenous canada crime,0
+indigenous policy canada,0
+indigenous hardship canada,0
+indigenous canada achievement,0
+indigenous education canada,0
+indigenous health canada,0
+indigenous healthcare canada,0
+indigenous laws canada,0
+indigenous lawmaker canada,0
+indigenous soldier canada,0
+indigenous culture canada,0
+indigenous food canada,0
+indigenous welfare canada,0
+indigenous taxes canada,0
+indigenous disparity canada,0
+indigenous income gap canada,0
+indigenous taxes canada,0
+indigenous culture loss canada,0
+indigenous culture annihilation canada,0
+indigenous death canada,0
+indigenous murder rate canada,0
+indigenous job canada,0
+indigenous hunters canada,0
+northern affairs canada,0
+indigenous traditions canada,0
+indigenous poverty canada,0
+indigenous impoverished canada,0
+indigenous abuse canada,0
+indigenous mental health canada,0
+indigenous depress canada,0
+indigenous violence canada,0
+aboriginal traditions canada,0
+aboriginal poverty canada,0
+aboriginal impoverished canada,0
+aboriginal abuse canada,0
+aboriginal mental health canada,0
+aboriginal depress canada,0
+aboriginal violence canada,0
+north canada,0
+north canada,1
+aboriginal canada,1
+aboriginal canada,0
+aboriginal issues canada,0
+aboriginal rights canada,0
+aboriginal canada unfair,0
+aboriginal discriminate canada,0
+aboriginal canada crime,0
+aboriginal policy canada,0
+aboriginal hardship canada,0
+aboriginal canada achievement,0
+aboriginal education canada,0
+aboriginal health canada,0
+aboriginal healthcare canada,0
+aboriginal laws canada,0
+aboriginal lawmaker canada,0
+aboriginal soldier canada,0
+aboriginal culture canada,0
+aboriginal food canada,0
+aboriginal welfare canada,0
+aboriginal taxes canada,0
+aboriginal disparity canada,0
+aboriginal income gap canada,0
+aboriginal taxes canada,0
+aboriginal culture loss canada,0
+aboriginal culture annihilation canada,0
+aboriginal death canada,0
+aboriginal murder rate canada,0
+aboriginal job canada,0
+aboriginal hunters canada,0
+inuit canada,1
+inuit canada,0
+inuit issues canada,0
+inuit rights canada,0
+inuit canada unfair,0
+inuit discriminate canada,0
+inuit canada crime,0
+inuit policy canada,0
+inuit hardship canada,0
+inuit canada achievement,0
+inuit education canada,0
+inuit health canada,0
+inuit healthcare canada,0
+inuit laws canada,0
+inuit lawmaker canada,0
+inuit soldier canada,0
+inuit culture canada,0
+inuit food canada,0
+inuit welfare canada,0
+inuit taxes canada,0
+inuit disparity canada,0
+inuit income gap canada,0
+inuit taxes canada,0
+inuit culture loss canada,0
+inuit culture annihilation canada,0
+inuit death canada,0
+inuit murder rate canada,0
+inuit job canada,0
+inuit hunters canada,0
